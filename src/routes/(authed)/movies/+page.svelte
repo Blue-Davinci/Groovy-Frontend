@@ -93,7 +93,7 @@
 		
 	}
 	.header-container {
-		margin-top: 30px;
+		margin-top: 10px;
 		display: flex;
 		justify-content: space-between; /* Aligns items to the start and end of the container */
 		align-items: center; /* Centers items vertically */
