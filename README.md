@@ -46,6 +46,11 @@ The project supports essential user authentication features, including login and
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
+📝 **A Quick Note**
+- The project uses the `server.js` routing method. All communication with the GROOVY API is made via `route\api\server.js`
+- The signup & login pages utilize `page.server.js` as `server.js` proxies using page actions to route the form data.
+- Custom error.html and a single error.svelte are used to render custom error messages and as fallbacks to `fail()`
+
 ### Prerequisites <a name="prerequisites "></a>
 
 Before you can run the Groovy Frontend project, you need to ensure that you have the following prerequisites installed on your system:
@@ -110,11 +115,6 @@ You can view the sample look & feel below:
 
 ![Homepage Screenshot](./images/HomePage.png)
 
-
-📝 **A Quick Note**
-- The project uses the `server.js` routing method. All communication with the GROOVY API is made via `route\api\server.js`
-- The signup & login pages utilize `page.server.js` as `server.js` proxies using page actions to route the form data.
-- Custom error.html and a single error.svelte are used to render custom error messages and as fallbacks to `fail()`
 
 ## 🎈 Usage <a name="usage"></a>
 
