@@ -68,7 +68,7 @@ Follow these steps to install and run the Groovy Frontend project:
 Say what the step will be
 
 ```
-git clone https://github.com/blue-davinci/groovy-fullstack-Go+Svelte-Frontend-Application.git
+git clone https://github.com/Blue-Davinci/Groovy-Frontend.git
 ```
 2. Navigate to the Project Directory: Use the command line to navigate into the root directory of the project:
 ```
@@ -94,8 +94,8 @@ The Groovy Frontend should now be running on your local machine. You can access 
 
 ## 🔧 Sample Output <a name = "SampleOutput"></a>
 You can view the sample look & feel below:
-![Homepage Screenshot](./images/homepage.png)
-![Movie Page Screenshot](./images/movies.png)
+![Homepage Screenshot](./images/HomePage.png)
+![Movie Page Screenshot](./images/Movies.png)
 
 
 ## 🎈 Usage <a name="usage"></a>
