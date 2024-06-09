@@ -58,7 +58,7 @@ Before you can run the Groovy Frontend project, you need to ensure that you have
 
 - Pico CSS: A simple CSS Library. I have used is as the essential foundation in addition to Custom CSS
 
-- Groovy API Server. This can be found [here](https://github.com/Blue-Davinci/groovy)
+- Groovy API Server. This can be found [here](https://github.com/Blue-Davinci/Groovy)
 
 
 ### Installing
@@ -86,7 +86,7 @@ npm install -g svelte
 ```
 npm install
 ```
-6. Launch Groovy Server by following the instructions [here](https://github.com/Blue-Davinci/groovy?tab=readme-ov-file#installing)
+6. Launch Groovy Server by following the instructions [here](https://github.com/Blue-Davinci/Groovy?tab=readme-ov-file#installing)
 
 7. Make sure you create the following 2 files in the root folder i.e `Groovy-Frontend\`:
 ```
