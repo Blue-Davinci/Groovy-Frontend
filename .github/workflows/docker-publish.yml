@@ -3,7 +3,7 @@ name: Build and Push Docker image
 on:
   push:
     branches:
-      - main #trigger workflow
+      - main #trigger workflow on pushes.
 
 permissions:
   contents: read
