@@ -87,11 +87,13 @@ npm install
 6. Launch Groovy Server by following the instructions [here](https://github.com/Blue-Davinci/groovy?tab=readme-ov-file#installing)
 
 7. Make sure you create the following 2 files in the root folder i.e `Groovy-Frontend\`:
-```.env.development
+```
+.env.development
 VITE_API_BASE_URL = "http://localhost:4000/v1"
 ```
 
-```.env.production
+```
+.env.production
 VITE_API_BASE_URL = "http://host.docker.internal:4000/v1"
 ```
 
