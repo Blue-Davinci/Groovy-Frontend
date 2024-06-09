@@ -24,7 +24,7 @@
 		box-sizing: border-box;
 	}
 	.search-box {
-		margin-top: 100px;
+		margin-top: 40px;
 		margin-bottom: 0;
 		width: fit-content;
 		height: fit-content;

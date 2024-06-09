@@ -19,3 +19,5 @@ This document outlines the tasks and features that are planned or need to be imp
 
 ## Issues
 - There is an issue with the backend not sending emails when operated through a dockerized container.
+- There is a strange issue with splide where the slide mess a bit with the height while they transition.
+- Full stretched card during a search where 1-2 cards are left on the screen.

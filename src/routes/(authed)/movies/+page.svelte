@@ -7,7 +7,7 @@
 	import Moviecard from '$lib/components/moviecard.svelte';
 	import SearchMovie from '$lib/components/searchmovie.svelte';
 	import { fly } from 'svelte/transition';
-	import Carousel from "$lib/components/Carousel.svelte";
+	import Carousel from '$lib/components/Carousel.svelte';
 	import Modals from '$lib/components/modals.svelte';
 	import { setToast } from '$lib/utils/utils.js';
 	export let data;
@@ -47,7 +47,7 @@
 		? movies.filter((movie) => movie.title.toLowerCase().includes(searchTerm.toLowerCase()))
 		: movies;
 
-	$: carouselMovies = filteredMovies.slice(0,10);
+	$: carouselMovies = filteredMovies.slice(0, 10);
 </script>
 
 <svelte:head>
@@ -57,9 +57,10 @@
 	<div class="carousel">
 		<Carousel {carouselMovies} />
 	</div>
-	<div style="clear: both;"></div> <!-- Clear fix -->
-	<SearchMovie on:search={handleSearch} />
-	<h3>Current Movies</h3>
+	<div class="header-container">
+		<h3>Current Movies</h3>
+		<SearchMovie on:search={handleSearch} />
+	</div>
 	<hr />
 	{#if showModal}
 		<div
@@ -83,12 +84,21 @@
 		margin-top: 40px;
 		padding: 0 1rem;
 	}
-	.carousel{
+
+	.carousel {
 		margin: 0 0 5px 0;
 		background-color: #222;
 		height: auto;
-		max-height: 500px;
-  }
+		max-height: 600px;
+		
+	}
+	.header-container {
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between; /* Aligns items to the start and end of the container */
+		align-items: center; /* Centers items vertically */
+		padding: 0 1rem; /* Adds some padding on the sides */
+	}
 	.popular-movies {
 		display: grid;
 		margin-left: 0.5rem;
@@ -96,9 +106,9 @@
 		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 		grid-column-gap: 1rem;
 		grid-row-gap: 2rem;
-		  justify-content: start; /* Align items to the start */
-  align-items: start; /* Align items to the start */
-  width: auto;
+		justify-content: start; /* Align items to the start */
+		align-items: start; /* Align items to the start */
+		width: auto;
 	}
 	.add-button {
 		position: fixed;
