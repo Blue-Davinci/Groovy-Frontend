@@ -1,0 +1,138 @@
+input {
+    border: 1px solid black; /* Change the border color to black */
+}
+
+input:focus {
+    outline: 2px solid #00ff9d; /* Bright green color */
+    box-shadow: 0 0 5px #00ff9d; /* Add a green glow around the input */
+}
+
+.input-error {
+    border-color: red;
+}
+
+.input-error:focus {
+    border-color: #00ff9d; /* Set the border color to green when the input is focused */
+}
+
+.input-bordered {
+    border-color: hsl(0, 0%, 7%); /* Replace with the color you want for the normal state */
+}
+	
+	/* Grid */
+	main.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: calc(100vh - 7rem);
+		padding: 1rem 0;
+	}
+
+	article {
+		padding: 0;
+		overflow: hidden;
+	}
+
+	article div {
+		padding: 1rem;
+	}
+
+	@media (min-width: 576px) {
+		main.container {
+			padding: 1.25rem 0;
+		}
+
+		article div {
+			padding: 1.25rem;
+		}
+	}
+
+	@media (min-width: 768px) {
+		main.container {
+			padding: 1.5rem 0;
+		}
+
+		article div {
+			padding: 1.5rem;
+		}
+	}
+
+	@media (min-width: 992px) {
+		main.container {
+			padding: 1.75rem 0;
+		}
+
+		article div {
+			padding: 1.75rem;
+		}
+	}
+
+	@media (min-width: 1200px) {
+		main.container {
+			padding: 2rem 0;
+		}
+
+		article div {
+			padding: 2rem;
+		}
+	}
+
+	/* Hero Image */
+	article div:nth-of-type(2) {
+		display: none;
+		min-height: 500px;
+		min-width: 500px;
+		background-color: #374956;
+		background-image: url('/alessio-soggetti-8jeWeKdygfk-unsplash-1000x1200.jpg');
+		background-position: center;
+		background-size: cover;
+	}
+
+	@media (min-width: 992px) {
+		.grid > div:nth-of-type(2) {
+			display: block;
+		}
+	}
+
+/* Button */
+button.contrast {
+    background-color: #00c6a7; /* Greenish color */
+    color: black; /* Black text */
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.4s, color 0.4s, transform 0.2s;
+}
+
+button.contrast:hover {
+    background-color: #00806b; /* Darker greenish color on hover */
+    color: white; /* White text on hover */
+}
+
+button.contrast:active {
+    background-color: #00594c; /* Even darker greenish color when active */
+    color: white;
+    transform: scale(0.95); /* Reduce the size of the button when it's clicked */
+}
+
+/* Error List */
+	.error-list {
+		display: grid;
+		justify-items: start;
+		align-items: center;
+		padding: 0;
+		width: fit-content;
+		margin: auto;
+		margin-bottom: 4px;
+	}
+	.error-message {
+		color: #a94442;
+		font-size: 0.8em;
+		margin: 4px 0;
+		list-style-type: circle;
+	}
