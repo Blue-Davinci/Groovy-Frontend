@@ -184,8 +184,6 @@ app-1  |   ➜  Network: http://170.20.0.2:4173/
 ```
 - Make sure to always have the backend `Groovy` running before running this frontend app.
 
-## Using Pre-Built Images:
-
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [Pico CSS](https://picocss.com/) - Minimal CSS Framework for semantic HTML
