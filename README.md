@@ -8,8 +8,8 @@
 <div align="center">
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
+[![GitHub Issues](https://img.shields.io/github/issues/Blue-Davinci/Groovy-Frontend.svg)](https://github.com/Blue-Davinci/Groovy-Frontend/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Blue-Davinci/Groovy-Frontend.svg)](https://github.com/Blue-Davinci/Groovy-Frontend/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
@@ -86,7 +86,16 @@ npm install
 ```
 6. Launch Groovy Server by following the instructions [here](https://github.com/Blue-Davinci/groovy?tab=readme-ov-file#installing)
 
-7. After a succesful setup+startup of the Grovy backend API - above- proceed and start the development server by running:
+7. Make sure you create the following 2 files in the root folder i.e `Groovy-Frontend\`:
+```.env.development
+VITE_API_BASE_URL = "http://localhost:4000/v1"
+```
+
+```.env.production
+VITE_API_BASE_URL = "http://host.docker.internal:4000/v1"
+```
+
+8. After a succesful setup+startup of the Grovy backend API - above- proceed and start the development server by running:
 ```
 npm run dev
 ```
