@@ -107,9 +107,14 @@ The Groovy Frontend should now be running on your local machine. You can access 
 
 ## 🔧 Sample Output <a name = "SampleOutput"></a>
 You can view the sample look & feel below:
+
 ![Homepage Screenshot](./images/HomePage.png)
 
 
+## A quick note
+- The project uses the `server.js` routing method. All communication with the GROOVY API is made via `route\api\server.js`
+- The signup & login pages utilize `page.server.js` as `server.js` proxies using page actions to route the form data.
+- Custom error.html and a single error.svelte are used to render custom error messages and as fallbacks to `fail()`
 
 ## 🎈 Usage <a name="usage"></a>
 
