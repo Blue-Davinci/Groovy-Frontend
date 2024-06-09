@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://avatars.githubusercontent.com/u/52623427?s=96&v=4" alt="Project logo"></a>
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">groovy-frontend</h3>
@@ -22,7 +22,7 @@
 
 ## 📝 Table of Contents
 
-- [About](#about)
+- [About The Project](#about)
 - [Getting Started](#getting_started)
 - [Prerequisites](#prerequisites )
 - [Deployment](#deployment)
