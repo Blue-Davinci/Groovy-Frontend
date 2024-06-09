@@ -111,7 +111,7 @@ You can view the sample look & feel below:
 ![Homepage Screenshot](./images/HomePage.png)
 
 
-## A quick note
+📝 **A Quick Note**
 - The project uses the `server.js` routing method. All communication with the GROOVY API is made via `route\api\server.js`
 - The signup & login pages utilize `page.server.js` as `server.js` proxies using page actions to route the form data.
 - Custom error.html and a single error.svelte are used to render custom error messages and as fallbacks to `fail()`
