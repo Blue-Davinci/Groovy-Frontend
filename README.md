@@ -132,6 +132,13 @@ The basics of the app includes:
 6. Logout: When you're done, you can log out of your account by clicking on the 'Logout' button.
 
 ## 🚀 Deployment <a name = "deployment"></a>
+
+## Pre-Built Image
+If you feel unmotivated, You can use the docker image by running the following command:
+```
+docker pull ghcr.io/blue-davinci/groovy-frontend:tag
+```
+
 ## Docker
 Dockerfile and Docker Compose Setup:
 
@@ -176,6 +183,8 @@ app-1  |   ➜  Local:   http://localhost:4173/
 app-1  |   ➜  Network: http://170.20.0.2:4173/
 ```
 - Make sure to always have the backend `Groovy` running before running this frontend app.
+
+## Using Pre-Built Images:
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
