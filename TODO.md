@@ -16,3 +16,6 @@ This document outlines the tasks and features that are planned or need to be imp
 - Add personalization in terms of favorites etc
 - Implement a user account system... (50%)
 - Add thumbnails to the main slider (functionality is there, just have not hooked it up)
+
+## Issues
+- There is an issue with the backend not sending emails when operated through a dockerized container.
