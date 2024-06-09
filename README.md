@@ -40,6 +40,8 @@ The Groovy Frontend project is a companion to the [Groovy API](https://github.co
 
 The project supports essential user authentication features, including login and signup via bearer tokens. Once authenticated, users can perform a variety of activities such as creating, viewing, updating, and deleting movies. The system is designed with a custom permissions framework, ensuring that only authorized users can perform write operations, while read operations are available to all users. This approach ensures a secure and controlled environment, maintaining the integrity of the movie data while providing a dynamic and interactive platform for movie enthusiasts.
 
+![Movie Page Screenshot](./images/Movies.png)
+
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
@@ -106,7 +108,7 @@ The Groovy Frontend should now be running on your local machine. You can access 
 ## 🔧 Sample Output <a name = "SampleOutput"></a>
 You can view the sample look & feel below:
 ![Homepage Screenshot](./images/HomePage.png)
-![Movie Page Screenshot](./images/Movies.png)
+
 
 
 ## 🎈 Usage <a name="usage"></a>
