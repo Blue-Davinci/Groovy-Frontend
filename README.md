@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> The Groovy Frontend project is the companion project to the [Groovy API](https://github.com/Blue-Davinci/groovy)
     <br> 
 </p>
 
@@ -36,7 +36,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-The Groovy Frontend project is a companion to the [Groovy API](https://github.com/Blue-Davinci/groovy), a robust movie data service built with Golang. This frontend, built with Svelte, serves as the user interface for the Groovy API, providing an intuitive and engaging platform for users to interact with a vast array of movie data. It leverages the capabilities of the Groovy API to present movie information in a user-friendly format, enhancing the overall user experience.
+This is a robust movie data service built with Golang. This frontend, built with Svelte, serves as the user interface for the Groovy API, providing an intuitive and engaging platform for users to interact with a vast array of movie data. It leverages the capabilities of the Groovy API to present movie information in a user-friendly format, enhancing the overall user experience.
 
 The project supports essential user authentication features, including login and signup via bearer tokens. Once authenticated, users can perform a variety of activities such as creating, viewing, updating, and deleting movies. The system is designed with a custom permissions framework, ensuring that only authorized users can perform write operations, while read operations are available to all users. This approach ensures a secure and controlled environment, maintaining the integrity of the movie data while providing a dynamic and interactive platform for movie enthusiasts.
 
