@@ -80,11 +80,11 @@ input:focus {
 	/* Hero Image */
 	article div:nth-of-type(2) {
 		display: none;
-		min-height: 500px;
-		min-width: 500px;
+		min-height: 450px;
+		min-width: 450px;
 		background-color: #374956;
 		background-image: url('/alessio-soggetti-8jeWeKdygfk-unsplash-1000x1200.jpg');
-		background-position: center;
+		background-position: 40% center;
 		background-size: cover;
 	}
 

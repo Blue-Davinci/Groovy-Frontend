@@ -91,7 +91,7 @@
 						</ul>
 					{/if}
 					<p>
-						Don't have an account? <a href="/signup">Sign up</a>
+						 <a href="/reset" style="font-size: 16px;">Forgot Password?</a>
 					</p>
 					<button type="submit" class="contrast" disabled={signin}> Login </button>
 					{#if signin}
@@ -102,6 +102,9 @@
 					{/if}
 				</fieldset>
 			</form>
+			<p>
+				Don't have an account? <a href="/signup">Sign up</a>
+			</p>
 		</div>
 		<div></div>
 	</article>

@@ -48,7 +48,7 @@
 								//fromsignup.set(true)
 								setToast(true, 'Signup was Succesful, please check your email for instructions.', 4000);
 								await update();
-								await goto(result.location);
+								await goto(redirectTo);
 							}
 							await update();
 						} catch (error) {
