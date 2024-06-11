@@ -5,13 +5,7 @@
 //  3. we send the data + token to the backend
 //  4. get the data, diplay a success message and redirect to the login page
 import {error} from '@sveltejs/kit';
-import {z} from 'zod';
-
-const tokenSchema = z
-    .string({required_error: "A Token is required"})
-    .min(26, {message: "A Valid Token is required"})
-    .max(30, {message: "The Token is Invalid"})
-    .refine(value => value.trim().length > 0, {message: "Token cannot be only whitespace"});
+import {tokenSchema} from '$lib/utils/auth.js';
 
 export const load =  async({url, fetch}) => {
     const token = url.searchParams.get('token');

@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 
-export async function load({fetch}){
+export const load = async ({fetch}) => {
     const res = await fetch('/api/movies', {
         method: 'GET',
         headers: {

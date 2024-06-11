@@ -1,5 +1,6 @@
 <script>
 	export let error;
+	console.log("Error component: ",error);
 </script>
 
 {#if error}
