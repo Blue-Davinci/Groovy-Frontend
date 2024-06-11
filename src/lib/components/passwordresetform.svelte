@@ -1,7 +1,6 @@
 <script>
 	import { setToast } from '$lib/utils/utils.js';
   import {goto} from  '$app/navigation';
-  import ErrorMessage from '$lib/components/errormessage.svelte';
 	export let token;
 	let password = '';
 	let confirmPassword = '';
@@ -48,7 +47,6 @@
 			{passwordsMatch ? 'Passwords match' : 'Passwords do not match'}
 		</div>
 	{/if}
-  <ErrorMessage error={errorMessage?.error?.password} />
 	<button type="submit">Reset Password</button>
 </form>
 
